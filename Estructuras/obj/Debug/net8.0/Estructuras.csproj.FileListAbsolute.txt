@@ -1,0 +1,14 @@
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/bin/Debug/net8.0/Estructuras
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/bin/Debug/net8.0/Estructuras.deps.json
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/bin/Debug/net8.0/Estructuras.runtimeconfig.json
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/bin/Debug/net8.0/Estructuras.dll
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/bin/Debug/net8.0/Estructuras.pdb
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.AssemblyInfoInputs.cache
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.AssemblyInfo.cs
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.csproj.CoreCompileInputs.cache
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.dll
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/refint/Estructuras.dll
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.pdb
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.genruntimeconfig.cache
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/ref/Estructuras.dll

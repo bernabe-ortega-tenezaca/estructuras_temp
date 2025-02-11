@@ -1,19 +1,36 @@
-﻿Console.WriteLine("                     Universidad Estatal Amazónica");
+﻿System.Console.WriteLine("              Universidad Estatal Amazónica");
+System.Console.WriteLine();
+Console.WriteLine("Semana 9 - Conjuntos Tutoria Martes");
+System.Console.WriteLine("================================");
 
-Console.WriteLine("Imprimir los elementos de una cola");
-//Queue sirve para definir una cola
-Queue<string> nombres = new Queue<string>(); //nombres es una colección
+//Definir un conjunto llamado miconjunto
+HashSet<string> miconjunto = new HashSet<string>();
+miconjunto.Add("Ana");
+miconjunto.Add("José");
+miconjunto.Add("Ana"); // Los conjuntos no aceptan elementos repetidos
 
-nombres.Enqueue("Ana"); // primero en entrar primero en salir  FIFO=>Cola
-nombres.Enqueue("Luis");
-nombres.Enqueue("Lucia");
-nombres.Enqueue("Carlos");
-
-nombres.Dequeue();
-
-foreach (var item in nombres) //foreach recorre todos y cada uno de los elementos de una colección
+foreach (var item in miconjunto)
 {
-    Console.WriteLine(item);
+    System.Console.WriteLine(item);
+}
+
+//Buscar el elemento Ana
+//método 1
+bool encontrado = false;
+
+encontrado = miconjunto.Contains("ana");
+if(encontrado == true){
+    System.Console.WriteLine("El elemento si existe");
+}else{
+    System.Console.WriteLine("Elemento no encontrado");
+}
+
+//Buscar el elemento José
+//métddo 2
+if(miconjunto.Contains("José")){
+    System.Console.WriteLine("Encontrado");
+}else{
+    System.Console.WriteLine("No encontrado");
 }
 
 

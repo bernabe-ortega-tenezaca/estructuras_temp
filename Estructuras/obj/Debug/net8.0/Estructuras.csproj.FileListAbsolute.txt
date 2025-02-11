@@ -12,3 +12,4 @@
 /Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.pdb
 /Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.genruntimeconfig.cache
 /Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/ref/Estructuras.dll
+/Users/bernabeortega/Desktop/estructuras_temp/Estructuras/obj/Debug/net8.0/Estructuras.sourcelink.json

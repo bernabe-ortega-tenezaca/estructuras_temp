@@ -32,10 +32,15 @@ if (estudiantes.ContainsKey(key))
 
 //Diccionario espanol ingles
 Dictionary<string, string> diccionario = new Dictionary<string, string>();
-diccionario.Add("dia", "day");
-diccionario.Add("noche", "nigth");
+diccionario.Add("dia", "Day");
+diccionario.Add("noche", "Nigth");
 // continuar hasta tener mínimo 10 palabras
 // hacer el menú
+
+diccionario["dia"] = "day";
+diccionario["noche"] = "night";
+
+
 string frase = "El dia es hermoso, y la noche lluviosa"; // El day es hermoso y la night lluviosa
 string[] palabras = frase.Split(" "); //Separamos cada una de las palabras de la frase en un vector
 

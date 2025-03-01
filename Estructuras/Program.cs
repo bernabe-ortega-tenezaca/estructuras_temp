@@ -2,64 +2,50 @@
 Console.WriteLine("Estructura de datos");
 Console.WriteLine();
 
-//Crear un diccionario de estudiantes
+//Diccionario de estudiantes
 Dictionary<int, string> estudiantes = new Dictionary<int, string>();
+estudiantes.Add(1,"Ana");
+estudiantes.Add(2, "José");
 
-//Agregar datos
-estudiantes.Add(1,"Juan");
-estudiantes.Add(2, "María");
-
-// error al ingresar un repetido
-//estudiantes.Add(1, "Ana");
-
-int key = 3;
-if (estudiantes.ContainsKey(key))
-{
-    System.Console.WriteLine("El dato ya existe");
-}else{
-    estudiantes.Add(key, "Ana");
-}
-//estudiantes.Add(key, "Ana");
+// Error al repetir la clave(key)
+//estudiantes.Add(2,"Arturo");
 // try
 // {
-//     estudiantes.Add(key, "Ana");
+//     estudiantes.Add(2,"Arturo");
 // }
 // catch (System.Exception e)
 // {
-//     System.Console.WriteLine("Ha ocurrido un error: Contacte con el administrador");
+//     System.Console.WriteLine("Ha ocurrido un error, contáctese con el administrador: " + e.Message);
 // }
 
-
-//Diccionario espanol ingles
+//Diccionario español - inglés
 Dictionary<string, string> diccionario = new Dictionary<string, string>();
-diccionario.Add("dia", "Day");
-diccionario.Add("noche", "Nigth");
-// continuar hasta tener mínimo 10 palabras
-// hacer el menú
+diccionario.Add("dia","day");
+diccionario.Add("noche","night");
+diccionario.Add("paz","peace");
+//continuar con 10 palabras mínimo
 
-diccionario["dia"] = "day";
-diccionario["noche"] = "night";
+//diccionario["noche"] = "Night"; //actualizar un valor
 
 
-string frase = "El dia es hermoso, y la noche lluviosa"; // El day es hermoso y la night lluviosa
-string[] palabras = frase.Split(" "); //Separamos cada una de las palabras de la frase en un vector
+string frase = "Noche de paz, noche de amor, todo brilla"; //Noche de peace, night de amor, todo brilla
+string[] palabras = frase.Split(" ");
 
-System.Console.WriteLine(frase);
-foreach (var item in palabras) //item tendra cada una de las palabras en cada iteracción
+if (diccionario.ContainsKey("de"))
 {
-    if(diccionario.ContainsKey(item)){ // buscamos cada palabra en el diccionario
-        System.Console.WriteLine(diccionario[item]);
-    }else{
-        System.Console.WriteLine(item);
-    }
+    System.Console.WriteLine("de:  ha sido encontrado");
+} else{
+    //System.Console.WriteLine("un: NO ha sido registrado");
+    diccionario.Add("de", "of");
 }
 
 
-
-
-//Imprimir el diccionario
-// System.Console.WriteLine("Los datos del diccionario son:");
-// foreach (var item in estudiantes)
-// {
-//     System.Console.WriteLine(item);
-// }
+// System.Console.WriteLine(frase);
+foreach (var item in palabras) //Item recorre cada una de las palabras de la frase  
+{
+    if(diccionario.ContainsKey(item)){
+        System.Console.WriteLine(diccionario[item]);
+    } else{
+        System.Console.WriteLine(item);
+    }
+}

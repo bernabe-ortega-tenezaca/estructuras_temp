@@ -49,3 +49,10 @@ foreach (var item in palabras) //Item recorre cada una de las palabras de la fra
         System.Console.WriteLine(item);
     }
 }
+
+//Menú
+//1. Ingrese la frase
+//2. Agregar palabras al diccionario
+    //ingrese la palabra
+    //ingrese la traducción
+//3. Salir
